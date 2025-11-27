@@ -1,0 +1,29 @@
+*{text-align: center;}
+body{
+	background-color: #BBDBF3;
+	margin-top: 100px;
+	margin-left: 100px;
+	margin-right: 100px;}
+div {
+  	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	color: white;
+	font-size: 40px;
+	font-style: oblique;
+	font-weight: bold;
+	font-family: "Lucida Console";
+	background-color: #305daa;
+	border: 3px solid pink;}
+h3{
+	text-align: right;
+}
+img{align: center;}
+p,th,td,li,h3{
+	color: #000066;
+	font-family: "Arial";}
+table,th,td{
+	border: 3px dashed #305daa;
+	border-collapse: collapse;
+	padding: 5px;
+}
