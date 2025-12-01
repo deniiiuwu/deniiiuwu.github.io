@@ -1,11 +1,12 @@
 <html>
+<script src="myScript.js"></script>
 <head>
 	<link rel="stylesheet" href="mystyle.css">
 	<title>EVALUARE 2</title>
 </head>
 
 <body>
-	<div>Duruttya Denisa Antonia</div>
+	<div class="titlu">Duruttya Denisa Antonia</div>
 	<a href="mailto:Duruttya.Ti.Denisa@student.utcluj.ro">Duruttya.Ti.Denisa@student.utcluj.ro</a>
 
 	<p>Componente si caracteristici</p>
@@ -17,19 +18,30 @@
 	</table>
 
 	<p>Structura retelei</p>
-<img height="200px" width="550px" src="diag.jpg">
+<img src="diag.png">
 
 	<p>Caracteristici conexiune retea</p>
-	<ul>
-		<li>e</li>
-		<li>e</li>
-		<li>e</li>
+<div class="container">
+	<ul class="myUL">
+		<li>Conexiune wireless</li>
+		<li>Raza de acoperire mica (LAN)</li>
+		<li>Viteza 60 MB / s</li>
 	</ul>
+</div>
+	<p class="carusel" ondblclick="showSlides()">Monitorizare resurse</p>
+<div class="slideshow-container">
+  <div class="mySlides fade">
+    <img src="cpu.png" style="width:20%">
+  </div>
 
-	<p>Monitorizare resurse</p>
-<img src="cpu.png">
-<img src="mem.png">
-<img src="disk.png">
+  <div class="mySlides fade">
+    <img src="mem.png" style="width:20%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="disk.png" style="width:20%">
+  </div>
+</div>
 	
 </body>
 

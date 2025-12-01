@@ -1,10 +1,10 @@
 *{text-align: center;}
 body{
-	background-color: #BBDBF3;
+	background-color: pink;
 	margin-top: 100px;
 	margin-left: 100px;
 	margin-right: 100px;}
-div {
+div.titlu {
   	height: 100px;
 	line-height: 100px;
 	text-align: center;
@@ -14,14 +14,38 @@ div {
 	font-weight: bold;
 	font-family: "Lucida Console";
 	background-color: #305daa;
-	border: 3px solid pink;}
+	border: 3px solid #BBDBF3;}
+div.container {
+  text-align: center;}
+ul.myUL {
+  display: inline-block;
+  text-align: left;}
 a{text-align: right;}
 img{align: center;}
+p{
+	font-weight: bold;
+	text-decoration-line: underline;
+	text-decoration-style: wavy;}
+.carusel{
+	color: #0000ee;
+}
 p,th,td,li,h3{
 	color: #000066;
 	font-family: "Arial";}
+table{
+	margin-left: auto;
+	margin-right: auto;}
 table,th,td{
 	border: 3px dashed #305daa;
 	border-collapse: collapse;
 	padding: 5px;
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;}
+.mySlides {
+  display: none;}
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}}
 }
