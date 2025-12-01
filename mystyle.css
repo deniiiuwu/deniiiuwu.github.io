@@ -17,10 +17,18 @@ div.titlu {
 	border: 3px solid #BBDBF3;}
 div.container {
   text-align: center;}
+div.sect1{
+	padding: 10px;
+	background-color: #BBDBF3;}
+div.sect2{
+	padding: 10px;
+	background-color: #BAF2BB;}
+div.sect3{
+	padding: 10px;
+	background-color: #F3FFC4;}
 ul.myUL {
   display: inline-block;
   text-align: left;}
-a{text-align: right;}
 img{align: center;}
 p{
 	font-weight: bold;
